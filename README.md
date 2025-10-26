@@ -1,4 +1,4 @@
-# Potato Disease Detector — Pro Edition
+# Potato Disease Detector
 
 **A production-ready, portfolio-grade app for detecting potato leaf diseases.**
 
