@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  api:
+    build: ./api
+    ports:
+      - '8000:8000'
+    volumes:
+      - ./api/models:/app/api/models
+  frontend:
+    build: ./frontend
+    ports:
+      - '3000:3000'
+    environment:
+      - CHOKIDAR_USEPOLLING=true
